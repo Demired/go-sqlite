@@ -27,7 +27,7 @@ func main() {
 	}
 
 	// get SQLite version
-	_ := db.QueryRow("select sqlite_version()")
+	_ = db.QueryRow("select sqlite_version()")
 }
 ```
 
